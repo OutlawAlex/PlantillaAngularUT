@@ -1,4 +1,4 @@
-import { environment } from './../../environments/environment';
+import { environment } from "./../../environments/environment";
 
 export const auth = {
   login: `${environment.urlBase}SignIn`,
@@ -10,9 +10,14 @@ export const persons = {
 };
 
 export const profiles = {
-  get: `${environment.urlBase}GetPerfiles`
+  get: `${environment.urlBase}GetPerfiles`,
 };
 
 export const stores = {
-  get: `${environment.urlBase}GetSucursales`
+  get: `${environment.urlBase}GetSucursales`,
+};
+
+export const alumnos = {
+  get: `${environment.urlBase}GetAlumnos`,
+  insert: `${environment.urlBase}InsertAlumnos`,
 };
